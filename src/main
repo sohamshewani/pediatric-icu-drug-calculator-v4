@@ -1,0 +1,11 @@
+# src/main.py
+
+if __name__ == '__main__':
+    from src.dosage_calculator import main as dosage_calculator_main
+    from src.safety_validator import main as safety_validator_main
+    from src.user_interface import main as user_interface_main
+
+    # Assuming the main function in each module calls the appropriate logic
+    dosage_calculator_main()
+    safety_validator_main()
+    user_interface_main()
